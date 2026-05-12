@@ -74,6 +74,6 @@ public class House extends Asset {
 
         double houseValue = pricePerSquareFoot * squareFoot;
         double lotValue = 0.25 * lotSize;
-        return houseValue + lotValue;
+        return  houseValue +lotValue;
     }
 }
