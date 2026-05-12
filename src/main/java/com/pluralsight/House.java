@@ -1,6 +1,7 @@
 package com.pluralsight;
 
 public class House extends Asset {
+    //properties
     private String address;
     private int condition; // 1 - excellent, 2 - good, 3 - fair, 4 - poor
     private int squareFoot;

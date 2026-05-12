@@ -7,7 +7,7 @@ public class Vehicle extends Asset{
     private int year;
     private int odometer;
 
-
+    // constructor
 
     public Vehicle(String description, String dateAcquired, double originalCost, String makeModel, int year, int odometer) {
         super(description, dateAcquired, originalCost);
